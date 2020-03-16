@@ -1,0 +1,180 @@
+.jumbotron{
+  display:grid;
+  background-image: url(back.jpg);
+  width: 100%;  
+  height: 400px;
+  background-size: 100% 100%;
+  justify-items: center;
+  align-items: center;
+}
+
+.titulo1{
+  font-size: 11px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 14px;
+  color:black;
+  height: 30px;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+.titulo3{
+  display: block;
+  text-align: left;
+  color: #777;
+  font-size: 11px;
+  font-weight: bold;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.navbar{
+  z-index:1;
+}
+
+.jumbotron2{
+  margin: 5px;
+  height: 120px;
+  width: 600px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+.yellow-box{
+  height: 60px;
+  width: 1200px;
+  border: 1px solid grey;
+  background-color:yellow;
+  opacity: 0.7;
+}
+
+h2, h3 {
+  font-family:  sans-serif;
+}
+
+.nav-lista{
+padding: auto;
+}
+
+.nav-lista li a{
+
+}
+
+   .nav-item a{
+    color: white;
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+  }
+
+.seccion2{
+  display: flex;
+  justify-content: center
+}
+
+.seccion4{
+  height: 140px;
+  border: 1px ;
+  border-style: solid;
+}
+
+.inner-sec4{
+  padding-top: 3px;
+  position: relative;
+}
+
+.inner-sec4 div{
+width: 900px;
+height: 55px;
+position: absolute;
+top: 7px;
+left: 84px;
+}
+
+.s4-ul{
+  border: 2px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: nowrap;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: left 0.4s ease;
+  z-index: 55;
+  list-style: none;
+}
+
+.s4-ul li{
+display: inline-block;
+margin-left: 12px;
+margin-right: 11px;
+text-align: center;
+cursor: pointer;
+}
+
+.boton-izq{
+  display:block;
+  width:16px;
+  height:16px;
+  background-image: url(arrow4.png);
+  background-position:-104px -202px ;
+  position: absolute;
+  left: 20px;
+  top: 23px;
+  z-index: 900;
+  transition: left 0.2s ease;
+  cursor: pointer;
+}
+.boton-der{
+  display:block;
+  width:16px;
+  height:16px;
+  background-image: url(arrow5.png);
+  background-position:-124px -202px ;
+  position: absolute;
+  right: 20px;
+  top: 23px;
+  transition: right 0.2s ease;
+  z-index: 900;
+  cursor: pointer;
+}
+
+.anuncios-cont{
+  border-color: rgb(197, 197, 197); 
+  border-style: solid;
+  border-width: 1px;
+  width: 1000px;
+}
+
+.icon2{
+  width:120px;
+  height:90px;
+}
+
+.seccion3{
+  display: flex;
+  margin-top:200px;
+  justify-content: center;
+}
+
+.seccion5 {
+  position: relative;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+  justify-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.redes-icon :hover{
+ box-shadow: #777
+  
+}
+
+footer{
+  height: 200px;
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+Una caja con al menos 20 vehiculos en el centro que contenga todos los vehiuclos con las caracteristicas especificadas en el menu
+inicial.
+
+Tambien en uno de los laterales que contenga un filtro para hacer una busqueda mucho mas especifica, tambien debe 
+contener el navbar.
+
+si el cliente da click a un vehiculo debe salir una pagina(pagina detalles)con todas las especificaciones del vehiculo, 
+y los detalles del vendedor. A la derecha aparezca los datos del vendedor, al lado izquierdo las imagenes del vehiculo
+y abajo los detalles de este.
+
+
