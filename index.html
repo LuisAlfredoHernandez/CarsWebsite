@@ -1,204 +1,590 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-     <link rel="stylesheet" href="css/index.css"> 
-     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet"> 
-     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
-     <title>Carspot.com</title>
-</head>
-<body class="m-0">
-<header>
-  <nav class="row navbar navbar-expand-lg navbar-light bg-dark w-100 position-fixed">
-  <h1><a class="col-2 nav-brand" href="#">Car Spot</a></h1></a>   
-  <div class="col-2"></div>
-  <div class="col-8">
-      <ul class="row nav-lista navbar-bar list-unstyled">
-          <li class="nav-item col-3"><a href="#">Inicio</a></li>
-          <li class="nav-item col-3"><a href="#">Financiamiento</a></li>
-          <li class="nav-item col-3"><a href="#">Perfil</a></li>
-          <li class="nav-item col-3"><a href="#">Login</a></li>
-        </ul>
-  </div>
-  </nav>
-  <div class="jumbotron">
-      <div class="yellow-box"></div>
-    <div class="jumbotron2 text-center">
-      <p class="text-center"><a class="text-warning" href="#">Busqueda Rapida</a></p>
-      <div class="jumbotron-el mt-3 text-center"></div>
-        <button class="col-3 btn btn-primary dropdown-toggle font-weight-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Marca</button>
-          <button class="col-3 btn btn-primary dropdown-toggle font-weight-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Modelo</button>
-          <button class="col-3 btn btn-primary dropdown-toggle font-weight-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Año</button>
-         <button type="col-3 button" class="btn btn-success">Buscar</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <title>Carspot.com</title>
+  </head>
+  <body class="m-0">
+    <header class="w-100">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-dark w-100 position-fixed"
+      >
+        <h1><a class="col-2 nav-brand" href="#">Car Spot</a></h1>
+        <div class="col-2"></div>
+        <div class="col-8">
+          <ul class="row nav-lista navbar-bar list-unstyled">
+            <li class="nav-item col-3"><a href="#">Inicio</a></li>
+            <li class="nav-item col-3"><a href="#">Financiamiento</a></li>
+            <li class="nav-item col-3"><a href="#">Perfil</a></li>
+            <li class="nav-item col-3"><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="jumbotron">
+        <div class="yellow-box"></div>
+        <div class="jumbotron2 text-center">
+          <p class="text-center">
+            <a class="text-warning" href="#">Busqueda Rapida</a>
+          </p>
+          <div class="jumbotron-el mt-3 text-center"></div>
+          <button
+            class="col-3 btn btn-primary dropdown-toggle font-weight-bold"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Marca
+          </button>
+          <button
+            class="col-3 btn btn-primary dropdown-toggle font-weight-bold"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Modelo
+          </button>
+          <button
+            class="col-3 btn btn-primary dropdown-toggle font-weight-bold"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Año
+          </button>
+          <button type="col-3 button" class="btn btn-success">Buscar</button>
+        </div>
       </div>
-     </div>
-  </div>
-</header>
+    </header>
 
-<section class="seccion2">
-<div class="anuncios-cont" >
-  <div><h2 class="text-center font-weight-bold">En anuncio</h2></div> 
-  <ul class="list-unstyled row ml-2">
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v2.jpg" alt="img">
-      <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v3.jpg" alt="img">
-       <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-       </div></a></li>  
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v4.jpg" alt="img">
-        <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-        </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v8.jpg" alt="img">
-        <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-        </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v9.jpg" alt="img">
-        <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-        </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v7.jpg" alt="img">
-        <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-        </div></a></li> 
-   <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v6.jpg" alt="img">
-        <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-        </div></a></li> 
-   <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v11.jpg" alt="img">
-        <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-        </div></a></li> 
-   <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v12.jpg" alt="img">
-        <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-        </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v13.jpg" alt="img">
-      <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v14.jpg" alt="img">
-      <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v15.jpg" alt="img">
-      <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v16.jpg" alt="img">
-        <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v17.jpg" alt="img">
-          <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v18.jpg" alt="img">
-            <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v19.jpg" alt="img">
-              <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v20.jpg" alt="img">
-                <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v6.jpg" alt="img">
-      <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v3.jpg" alt="img">
-      <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    <li class="col-md-2"><a href="#"><div><img class="icon2" src="imagenes/v2.jpg" alt="img">
-      <div class="titulo1">2015 Hyundai</br>"Accent"</div><div class="titulo3">RD$ 449,000</div>
-      </div></a></li> 
-    </ul>
-</div> 
-</section>
+    <section class="seccion2">
+      <div class="anuncios-cont">
+        <div><h2 class="text-center font-weight-bold">En anuncio</h2></div>
+        <ul class="list-unstyled row ml-2">
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v2.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v3.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v4.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v8.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v9.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v7.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v6.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v11.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v12.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v13.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v14.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v15.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v16.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v17.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v18.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v19.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v20.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v6.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v3.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+          <li class="col-md-2">
+            <a href="#"
+              ><div>
+                <img class="icon2" src="imagenes/v2.jpg" alt="img" />
+                <div class="titulo1">2015 Hyundai<br />"Accent"</div>
+                <div class="titulo3">RD$ 449,000</div>
+              </div></a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
 
-<section class="seccion3 mt-5 mb-4">
-<ul class="row listyuj-unstyled">
-  <li class="mr-2">
-    <img src="imagenes/anuncio1.png" alt="imagen1" height="100px" width="600px">
-  </li>
-  <li class="ml-2">
-   <img src="imagenes/anuncio2.png" alt="imagen1" height="100px" width="600px">
-  </li>
- </ul>
-</section>
+    <section class="seccion3 mt-5 mb-4">
+      <ul class="row list-unstyled">
+        <li class="mr-2">
+          <img
+            src="imagenes/anuncio1.png"
+            alt="imagen1"
+            height="100px"
+            width="600px"
+          />
+        </li>
+        <li class="ml-2">
+          <img
+            src="imagenes/anuncio2.png"
+            alt="imagen1"
+            height="100px"
+            width="600px"
+          />
+        </li>
+      </ul>
+    </section>
 
-<div class="seccion4 mb-5 mt-4 ">
-  <div><h2 class="text-center">Marcas</h2></div> 
-<div class="inner-sec4">
-  <div>
-    <span class="boton-izq"></span>
-    <span class="boton-der"></span>
-    <ul style="left:0px;" class="s4-ul list-unstyled">
-      <li><a href="#"><img class="" src="imagenes/skoda.jpg" alt="nissan.jpg" height="55px" width="55px"></a></li>
-      <li ><a href="#"><img class="" src="imagenes/bmw.jpg" alt="" height="55px" width="55px"></a></li>
-      <li ><a href="#"><img class="" src="imagenes/cheverlot.jpg" alt="" height="55px" width="55px"></a></li>
-      <li ><a href="#"><img class="" src="imagenes/ford.png" alt="" height="55px" width="55px"></a></li>
-      <li ><a href="#"><img class="" src="imagenes/Honda.png" alt="" height="55px" width="55px"></a></li>
-      <li ><a href="#"><img class="" src="imagenes/mazda.jpeg" alt="" height="55px" width="55px"></a></li>
-      <li ><a href="#"><img class="" src="imagenes/Mercedez.jpg" alt="" height="55px" width="55px"></a></li>
-      <li ><a href="#"><img class="" src="imagenes/lexus.jpg" alt="" height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/audi.jpg" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/bmw.jpg" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/renault.png" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/Toyota-Logo-2.jpg" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/fiat.png" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/byd.png" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/isuzu.png" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/jeep.jpg" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/land rover.jpg" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/Proche.jpg" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/mini.jpg" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/kia.jpg" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/suzuki.png" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/nissan.jpg" alt=""height="55px" width="55px"></a></li>
+    <div class="seccion4 mb-5 mt-4">
+      <div><h2 class="text-center">Marcas</h2></div>
+      <div class="inner-sec4">
+        <span class="boton-izq"></span>
+        <div>
+          <ul class="s4-ul list-unstyled">
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/skoda.jpg"
+                  alt="nissan.jpg"
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/bmw.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/cheverlot.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/ford.png"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/Honda.png"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/mazda.jpeg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/Mercedez.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/lexus.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/audi.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/bmw.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/renault.png"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/Toyota-Logo-2.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/fiat.png"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/byd.png"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/isuzu.png"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/jeep.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/land rover.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/Proche.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/mini.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/kia.jpg"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class=""
+                  src="imagenes/suzuki.png"
+                  alt=""
+                  height="55px"
+                  width="55px"
+              /></a>
+            </li>
+            <!-- <li><a href="#"><img class="" src="imagenes/nissan.jpg" alt=""height="55px" width="55px"></a></li>
       <li><a href="#"><img class="" src="imagenes/Volkswagen.png" alt=""height="55px" width="55px"></a></li>
       <li><a href="#"><img class="" src="imagenes/Volvo.jpg" alt=""height="55px" width="55px"></a></li>
       <li><a href="#"><img class="" src="imagenes/acura.png" alt=""height="55px" width="55px"></a></li>
       <li><a href="#"><img class="" src="imagenes/jaguar.png" alt=""height="55px" width="55px"></a></li>
       <li><a href="#"><img class="" src="imagenes/mustang.jpg" alt=""height="55px" width="55px"></a></li>
       <li><a href="#"><img class="" src="imagenes/daihatsu.jpg" alt=""height="55px" width="55px"></a></li>
-      <li><a href="#"><img class="" src="imagenes/infiniti.png" alt=""height="55px" width="55px"></a></li>
-      </ul>
-   </div>
- </div> 
-</div>
-
-<section class="seccion5 mb-5 mt-5 shadow lg p-2"> 
-  <p><h2 class="text-center font-weight-bold mt-3">Nuestros servicios</h2></p> 
-  <div class="card" style="width: 25rem;">
-    <img src="imagenes/mecanico4.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Necesitas un mecanico?</h5>
-      <a href="#" class="btn btn-primary">Ver mas</a>
+      <li><a href="#"><img class="" src="imagenes/infiniti.png" alt=""height="55px" width="55px"></a></li> -->
+          </ul>
+        </div>
+        <span class="boton-der"></span>
+      </div>
     </div>
-  </div>
-  <div class="card" style="width: 25rem;">
-    <img src="imagenes/financiamiento.jpg" class="card-img-top" alt="..." height="250px">
-    <div class="card-body">
-      <h5 class="card-title">Financiamiento disponible</h5>
-      <a href="#" class="btn btn-primary">Ver mas</a>
-    </div>
-  </div>
-<div class="card" style="width: 25rem;">
-  <img src="imagenes/asesoria.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Asesoria de compra</h5>
-    <a href="#" class="btn btn-primary">Ver mas</a>
-  </div>
-</div>
-</section>
 
-<footer class="bg-dark">
-    <h3 class="text-primary">&nbsp; Siguenos en:</h3>&nbsp;
-    <div class="redes-icon ml-3">
-    <li class="list-unstyled text-light"><a href="#"><img class="rounded-circle" src="imagenes/f4.png"height="30px" width="40px"></a>&nbsp;Facebook</li>
-    <li class="list-unstyled text-light"><a href="#"><img class="rounded-circle mt-2 "src="imagenes/i4.png"height="30px" width="40px"></a>&nbsp;Instagram</li>
-    <li class="list-unstyled text-light"><a href="#"><img class="rounded-circle mt-2 "src="imagenes/whatsapp.png"height="30px" width="40px"></a>&nbsp;whatsapp</li>
-  </div>
-</footer>
-<div>
-  <p class="bottom bg-warning link text-center mb-0">«Copyright © 2019 | Rights Reserved</p>
-</div> 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</body>
+    <section class="mb-5 mt-5 shadow lg p-2">
+      <h2 class="text-center font-weight-bold mt-3">Nuestros servicios</h2>
+      <div class="seccion5">
+        <div class="card" style="width: 33rem">
+          <img src="imagenes/mecanico4.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Necesitas un mecanico?</h5>
+            <a href="#" class="btn btn-primary">Ver mas</a>
+          </div>
+        </div>
+        <div class="card" style="width: 33rem">
+          <img
+            src="imagenes/financiamiento.jpg"
+            class="card-img-top"
+            alt="..."
+            height="250px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Financiamiento disponible</h5>
+            <a href="#" class="btn btn-primary">Ver mas</a>
+          </div>
+        </div>
+        <div class="card" style="width: 33rem">
+          <img src="imagenes/asesoria.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Asesoria de compra</h5>
+            <a href="#" class="btn btn-primary">Ver mas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark">
+      <h3 class="text-primary">&nbsp; Siguenos en:</h3>
+      &nbsp;
+      <div class="redes-icon ml-3">
+        <li class="list-unstyled text-light">
+          <a href="#"
+            ><img
+              class="rounded-circle"
+              src="imagenes/f4.png"
+              height="30px"
+              width="40px" /></a
+          >&nbsp;Facebook
+        </li>
+        <li class="list-unstyled text-light">
+          <a href="#"
+            ><img
+              class="rounded-circle mt-2"
+              src="imagenes/i4.png"
+              height="30px"
+              width="40px" /></a
+          >&nbsp;Instagram
+        </li>
+        <li class="list-unstyled text-light">
+          <a href="#"
+            ><img
+              class="rounded-circle mt-2"
+              src="imagenes/whatsapp.png"
+              height="30px"
+              width="40px" /></a
+          >&nbsp;whatsapp
+        </li>
+      </div>
+    </footer>
+    <div>
+      <p class="bottom bg-warning link text-center mb-0">
+        «Copyright © 2019 | Rights Reserved
+      </p>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
